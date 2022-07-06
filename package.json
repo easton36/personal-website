@@ -1,0 +1,19 @@
+{
+  "name": "personal-website-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for my personal website built with ReactJS",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/easton36/personal-website-frontend.git"
+  },
+  "keywords": [],
+  "author": "Easton",
+  "license": "GNU General Public License v3",
+  "bugs": {
+    "url": "https://github.com/easton36/personal-website-frontend/issues"
+  },
+  "homepage": "https://github.com/easton36/personal-website-frontend#readme",
+  "dependencies": {
+    "create-react-app": "^5.0.1"
+  }
+}
