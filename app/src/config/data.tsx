@@ -22,13 +22,13 @@ export const ResumeExperience: ResumeItem[] = [
         title: 'Skincrib',
         subtitle: 'Lead Software Developer',
         date: '2020 - 2021',
-        description: 'Skincrib is a virtual marketplace that allows clients to buy and sell online "skins" from Counter-Strike: Global Offensive. I lead the development of the backend and worked with Express.js, MongoDB, Socket.IO, and React.js.',
+        description: 'Skincrib is a virtual marketplace that allows clients to buy and sell online "skins" from Counter-Strike: Global Offensive. I lead the development of the backend and worked with technologies and APIs like Express.js, MongoDB, Socket.IO, and React.js. I also worked with APIs like Bitgo and Steam to manage various features of the website.',
     },
 ];
 
 export const ResumeSkills: ResumeItem[] = [
     {
-        description: 'I have been working with JavaScript and Typescript for the past few years. I have worked many different frameworks like React, React Native, Express, Vue, and Socket.IO. I have experience from previous jobs working with pricing algorithms and managing private APIs (Eg. Steam).',
+        description: 'JavaScript and Typescript have been my specialty for the past few years. I have worked many different frameworks like React, React Native, Express, Vue, and Socket.IO. Other jobs have also required me to be competent using design tools like Figma and Adobe XD. I have lots of experience working with many different 3rd party APIs like Steam, BitGo, Paypal, and Stripe. In my free time I have worked on some personal crypto currency projects and gained experience with Solidity (creating Ethereum smart contracts), working with Web3js, and hosting various cryptocurrency nodes (bitcoin, ethereum, monero).',
     }
 ];
 
@@ -50,4 +50,3 @@ export const ContactMethods: ContactMethod[] = [
         platform: 'Github',
     }
 ];
-
