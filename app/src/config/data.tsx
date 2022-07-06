@@ -26,9 +26,67 @@ export const ResumeExperience: ResumeItem[] = [
     },
 ];
 
-export const ResumeSkills: ResumeItem[] = [
+export interface ResumeSkill{
+    category: string;
+    skills: string[];
+}
+
+export const ResumeSkills: ResumeSkill[] = [
     {
-        description: 'JavaScript and Typescript have been my specialty for the past few years. I have worked many different frameworks like React, React Native, Express, Vue, and Socket.IO. Other jobs have also required me to be competent using design tools like Figma and Adobe XD. I have lots of experience working with many different 3rd party APIs like Steam, BitGo, Paypal, and Stripe. In my free time I have worked on some personal crypto currency projects and gained experience with Solidity (creating Ethereum smart contracts), working with Web3js, and hosting various cryptocurrency nodes (bitcoin, ethereum, monero).',
+        category: 'Languages',
+        skills: [
+            'JavaScript',
+            'Python',
+            'Solidity',
+            'SQL'
+        ]
+    },
+    {
+        category: 'Frameworks',
+        skills: [
+            'Electron',
+            'React',
+            'React Native',
+            'Vue',
+            'Express',
+            'Socket.IO',
+            'PassportJS',
+            'uWebSockets',
+        ]
+    },
+    {
+        category: 'Technologies',
+        skills: [
+            'TypeScript',
+            'Node.js',
+            'Web3.js',
+            'JSON Web Token (JWT)',
+            'Cryptography (Bcrypt, PGP)',
+            'OAuth',
+            'Redis',
+            'MongoDB',
+            'Microsoft SQL Server',
+            'Elasticsearch',
+        ]
+    },
+    {
+        category: '3rd Party APIs',
+        skills: [
+            'Bitgo',
+            'Steam',
+            'Stripe',
+            'Paypal',
+            'Google Cloud',
+        ]
+    },
+    {
+        category: 'Miscellaneous',
+        skills: [
+            'Adobe XD',
+            'Figma',
+            'Git',
+            'Linux',
+        ]
     }
 ];
 

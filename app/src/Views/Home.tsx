@@ -1,14 +1,15 @@
 import React from "react";
-import { Flex, Box, Text, Link, Code, Accordion, AccordionItem, AccordionButton, AccordionPanel, AccordionIcon } from "@chakra-ui/react";
+import { Flex, Text, Link, Code, Accordion, AccordionItem, AccordionButton, AccordionPanel, AccordionIcon } from "@chakra-ui/react";
 
 import Notification from "../Components/Notification";
 import GroupTitle from "../Components/GroupTitle";
 import ResumeSection from "../Components/ResumeSection";
+import ResumeSkills from "../Components/ResumeSkills";
 import ContactTable from "../Components/ContactTable";
 
 import Footer from "../Components/Footer";
 
-import { ResumeExperience, ResumeSkills } from "../config/data";
+import { ResumeExperience } from "../config/data";
 
 const Home = ()=>{
 
@@ -19,7 +20,7 @@ const Home = ()=>{
 
                 <GroupTitle title="Resume" />
                 <ResumeSection title="Experience" items={ResumeExperience} />
-                <ResumeSection title="Skills" items={ResumeSkills} />
+                <ResumeSkills />
 
                 <GroupTitle title="Contact Methods" />
                 <ContactTable />
