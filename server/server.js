@@ -20,8 +20,8 @@ app.ws('/*', {
 //serve react website
 app.get('/*', serveDir(path.join(__dirname, '../app/build')));
 
-app.listen(process.env.PORT || 8080, (listening)=>{
+app.listen(process.env.PORT || 80, (listening)=>{
     if(listening){
-        console.log('Listening on port ', process.env.PORT || 8080);
+        console.log('Listening on port ', process.env.PORT || 80);
     }
 });
