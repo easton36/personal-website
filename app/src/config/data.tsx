@@ -1,4 +1,4 @@
-export const WS_URL: string = 'ws://localhost:8080';
+export const WS_URL: string = 'ws://easton.gg';
 
 interface ResumeItem{
     title?: string;
