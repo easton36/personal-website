@@ -1,4 +1,4 @@
-export const WS_URL: string = 'ws://easton.gg';
+export const WS_URL: string = 'wss://easton.gg';
 
 interface ResumeItem{
     title?: string;
