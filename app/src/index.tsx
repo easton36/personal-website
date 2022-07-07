@@ -1,4 +1,3 @@
-
 import * as React from "react";
 import * as ReactDOM from "react-dom/client";
 
@@ -7,6 +6,8 @@ import { ChakraProvider, extendTheme, type ThemeConfig } from "@chakra-ui/react"
 
 import * as serviceWorker from "./serviceWorker";
 import THEME from "./config/theme";
+
+import './index.css';
 
 const themeConfig: ThemeConfig = {
   initialColorMode: "dark",

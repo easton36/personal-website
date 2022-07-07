@@ -1,3 +1,5 @@
+export const WS_URL: string = 'ws://localhost:8080';
+
 interface ResumeItem{
     title?: string;
     subtitle?: string;

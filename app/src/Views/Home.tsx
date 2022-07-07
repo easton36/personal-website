@@ -16,7 +16,7 @@ const Home = ()=>{
     return (
         <Flex {...styles.container}>
             <Flex {...styles.innerContainer} direction="column">
-                <Notification title="Welcome to my website!" description="This is a static website built with React.JS and hosted on github pages. Everything you need to know about me can be found on here! If you need to contact me, my options will be listed down below." />
+                <Notification title="Welcome to my website!" description="This is my personal website built with React.JS and uWebsocketsJS. Everything you need to know about me can be found on here! If you need to contact me, my options will be listed down below." />
 
                 <GroupTitle title="Resume" />
                 <ResumeSection title="Experience" items={ResumeExperience} />

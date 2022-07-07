@@ -1,7 +1,7 @@
 import React from "react";
 import { Flex, Text, Link } from "@chakra-ui/react";
 
-const Footer = ()=>{
+const Footer: React.FC = ()=>{
     return (
         <Flex {...styles.container}>
             <Text {...styles.text}>Made with ❤️ by <Link href="https://github.com/easton36" rel="noreferrer" target="_blank" {...styles.link} color="accent">Easton</Link></Text>

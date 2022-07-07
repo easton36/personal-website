@@ -1,27 +1,37 @@
 import React from 'react';
 
 import { Text, Flex } from "@chakra-ui/react";
+import { Link } from 'react-router-dom';
 
-const Nav = ()=>{
+const Nav: React.FC = ()=>{
 
     return (
         <Flex {...styles.container}>
             <Flex {...styles.innerContainer}>
-                <Text {...styles.headerText}>Easton</Text>
+                <Link to="/" style={{flexGrow: 1}}>
+                    <Text {...styles.headerText}>Easton</Text>
+                </Link>
+
+                <Flex {...styles.buttonContainer}>
+                    <Link to="/whiteboard">
+                        <Flex {...styles.button} display={{
+                            base: 'none',
+                            md: 'flex',
+                        }}>
+                            <Text {...styles.button.text}>Whiteboard</Text>
+                        </Flex>
+                    </Link>
+
+                    <Link to="/livechat">
+                        <Flex {...styles.button} marginLeft={3}>
+                            <Text {...styles.button.text}>Livechat</Text>
+                        </Flex>
+                    </Link>
+                </Flex>
             </Flex>
         </Flex>
     )
 };
-
-/*
-<Flex {...styles.buttonContainer}>
-    <Flex {...styles.button}>
-        <Text {...styles.button.text}>Github</Text>
-    </Flex>
-    <Flex {...styles.button} marginLeft={3}>
-        <Text {...styles.button.text}>Telegram</Text>
-    </Flex>
-</Flex>*/
 
 const styles = {
     container: {
@@ -38,14 +48,16 @@ const styles = {
         grow: 1,
     },
     headerText: {
-        fontSize: 40,
+        fontSize: {
+            base: 32,
+            md: 40,
+        },
         fontWeight: 'bold',
         color: 'text',
-        grow: 1,
         marginLeft: {
-            base: '2.5%',
+            base: '10px',
             md: '0',
-        }
+        },
     },
     buttonContainer: {
         align: 'center',
