@@ -5,7 +5,7 @@ const Footer: React.FC = ()=>{
     return (
         <Flex {...styles.container}>
             <Text {...styles.text}>Made with ❤️ by <Link href="https://github.com/easton36" rel="noreferrer" target="_blank" {...styles.link} color="accent">Easton</Link></Text>
-            <Link href="https://github.com/easton36/personal-website-frontend" rel="noreferrer" target="_blank" {...styles.link} color="accent">View Source</Link>
+            <Link href="https://github.com/easton36/personal-website" rel="noreferrer" target="_blank" {...styles.link} color="accent">View Source</Link>
         </Flex>
     )
 }
