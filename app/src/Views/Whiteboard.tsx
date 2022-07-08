@@ -32,12 +32,12 @@ const Whiteboard: React.FC = () => {
 
     const { sendMessage: wsEmit } = useWebSocket(WS_URL, {
         onOpen: () => {
-            toast.info('Websocket connection established');
+            console.log('Websocket connection established');
 
             wsEmit(JSON.stringify({ message: 'whiteboard.fetch' }));
         },
         onClose: ()=>{
-            toast.error('Websocket connection closed');
+            console.log('Websocket connection closed');
         },
         onMessage: (event: WebSocketEventMap['message']) => {
             const parsedMessage = JSON.parse(event.data);

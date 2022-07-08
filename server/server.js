@@ -1,4 +1,5 @@
 const uWebSockets = require('uWebSockets.js');
+const fs = require('fs');
 const { serveDir } = require('uwebsocket-serve');
 const mongoose = require('mongoose');
 const path = require('path');
@@ -18,7 +19,11 @@ app.ws('/*', {
 });
 
 //serve react website
+app.get('/whiteboard', (res, req) => res.end(fs.readFileSync(path.join(__dirname, '../app/build/index.html'))));
+app.get('/livechat', (res, req) => res.end(fs.readFileSync(path.join(__dirname, '../app/build/index.html'))));
+
 app.get('/*', serveDir(path.join(__dirname, '../app/build')));
+
 
 app.listen(process.env.PORT || 80, (listening)=>{
     if(listening){

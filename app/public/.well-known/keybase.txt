@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/easton
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://easton.gg
+  * I am easton (https://keybase.io/easton) on keybase.
+  * I have a public key ASCyygzQc9a1QLww29i8BD44ClS3sg6oLuv1d3xZF_8SQwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120b2ca0cd073d6b540bc30dbd8bc043e380a54b7b20ea82eebf5777c5917ff12430a",
+      "host": "keybase.io",
+      "kid": "0120b2ca0cd073d6b540bc30dbd8bc043e380a54b7b20ea82eebf5777c5917ff12430a",
+      "uid": "b675f2f6f1f675bb7be2e6694f55af19",
+      "username": "easton"
+    },
+    "merkle_root": {
+      "ctime": 1657294159,
+      "hash": "cc8c8e2045e07c5fa029973cf1a03687a370bdea449cd0518c8d112c1d5f270d0e46339ac65ba80804ee660e12cebd3d0355a3b0814e8c8aa1a4f17d6d765eb3",
+      "hash_meta": "5ff1d5e1098467d001859e8bd70addda5e1c6baac0935ad1328dee8be257e120",
+      "seqno": 22813408
+    },
+    "service": {
+      "entropy": "J6h1A53bPiQfoeCXzjWSsbnZ",
+      "hostname": "easton.gg",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.0.1"
+  },
+  "ctime": 1657294193,
+  "expire_in": 504576000,
+  "prev": "80eaeb470f454c92d1bb2af8f9f0f2323d5fcf90dd75fe4adadc7f3c2b7c5f29",
+  "seqno": 10,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgssoM0HPWtUC8MNvYvAQ+OApUt7IOqC7r9Xd8WRf/EkMKp3BheWxvYWTESpcCCsQggOrrRw9FTJLRuyr4+fDyMj1fz5Dddf5K2tx/PCt8XynEIF/fV9awIs6Ctgrae1g/z6sCasKUpCxSsniAZ/zEynw/AgHCo3NpZ8RAKQduN8Gh/mpuphpQ2OrP7CBZ7nQy/5Iy5NC4PMLyE9G0gMNTMXtbd98gM1v11VTZni2AOnzcVc7wdmYIbeaDD6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIPhzEnAyVfJ54SVCpowlhBFTjOm8w9aCGpt9b8WhlJf0o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/easton
+
+==================================================================
