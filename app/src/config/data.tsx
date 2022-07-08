@@ -113,5 +113,10 @@ export const ContactMethods: ContactMethod[] = [
         username: '@Eastonn',
         url: 'https://keybase.io/eastonn',
         platform: 'Keybase',
+    },
+    {
+        username: 'easton@jabb3r.org',
+        url: 'xmpp://easton@jabb3r.org',
+        platform: 'XMPP',
     }
 ];
