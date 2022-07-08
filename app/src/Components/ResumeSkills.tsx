@@ -9,7 +9,7 @@ const ResumeSkillsSection: React.FC = ()=>{
         <Flex {...styles.container}>
             <Text {...styles.title}>Skills</Text>
 
-            <Flex {...styles.itemsContainer} direction={{base: 'column', md: 'row'}}>
+            <Flex {...styles.itemsContainer} wrap="wrap">
                 {ResumeSkills.map((item: ResumeSkill, index: number)=>(
                     <Flex {...styles.itemContainer} key={index} direction="column">
                         <Text {...styles.item.title}>{item.category}</Text>
@@ -57,20 +57,16 @@ const styles = {
         borderBottomWidth: '1px',
         paddingBottom: '15px',
         alignItems: {
-            base: 'center',
+            base: 'flex-start',
             md: 'flex-start',
         }
     },
     itemContainer: {
         justifyContent: 'flex-start',
-        width: {
-            base: '75%',
-            md: 'none',
-        },
         marginBottom: {
             base: '15px',
             md: '0px',
-        }
+        },
     },
     titleContainer: {
         alignItems: 'center',

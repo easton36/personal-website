@@ -62,23 +62,13 @@ export const ResumeSkills: ResumeSkill[] = [
             'TypeScript',
             'Node.js',
             'Web3.js',
-            'JSON Web Token (JWT)',
-            'Cryptography (Bcrypt, PGP)',
+            'JSON Web Token',
+            'Cryptography',
             'OAuth',
             'Redis',
             'MongoDB',
-            'Microsoft SQL Server',
+            'MSSQL Server',
             'Elasticsearch',
-        ]
-    },
-    {
-        category: '3rd Party APIs',
-        skills: [
-            'Bitgo',
-            'Steam',
-            'Stripe',
-            'Paypal',
-            'Google Cloud',
         ]
     },
     {
