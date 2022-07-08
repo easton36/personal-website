@@ -108,5 +108,10 @@ export const ContactMethods: ContactMethod[] = [
         username: '@Easton36',
         url: 'https://github.com/Easton36',
         platform: 'Github',
+    },
+    {
+        username: '@Eastonn',
+        url: 'https://keybase.io/eastonn',
+        platform: 'Keybase',
     }
 ];
