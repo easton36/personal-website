@@ -11,7 +11,7 @@ exports.open = (ws)=>{
         clients.set(id, ws);
         ws.id = id;
     
-        console.log(`Client connected: \n\t${id}\n\t${ws.getRemoteAddressAsText()}\n\t${new Date().toLocaleString()}`);
+        console.log(`Client connected: \n\t${id}\n\t${new TextDecoder("utf-8").decode(ws.getRemoteAddressAsText())}\n\t${new Date().toLocaleString()}`);
     } catch(err){
         console.log(err);
     }
@@ -46,7 +46,7 @@ exports.close = (ws, code, message) => {
         let id = ws.id;
         clients.delete(id);
     
-        console.log(`Client connected: \n\t${id}\n\t${ws.getRemoteAddressAsText()}\n\t${new Date().toLocaleString()}`);
+        console.log(`Client disconnected: \n\t${id}\n\t${new Date().toLocaleString()}`);
     } catch(err){
         console.log(err);
     }
