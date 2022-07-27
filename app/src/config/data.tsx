@@ -18,13 +18,13 @@ export const ResumeExperience: ResumeItem[] = [
         title: 'SkinSwap',
         subtitle: 'Software Developer',
         date: '2022 - Present',
-        description: 'SkinSwap is a virtual marketplace that allows clients to buy, sell, and trade online "skins" from Counter-Strike: Global Offensive and Rust. I worked as a contractor on small sections of the site to implement pricing algorithms and private APIs using Express.js, MongoDB, Socket.IO, and React.js.',
+        description: 'SkinSwap is a virtual marketplace that allows clients to buy, sell, and trade online "skins" from Counter-Strike: Global Offensive and Rust. I currently work as the lead developer of the site and use technologies like Express.js, MongoDB, Socket.IO, and React.js.',
     },
     {
         title: 'Skincrib',
         subtitle: 'Lead Software Developer',
         date: '2020 - 2021',
-        description: 'Skincrib is a virtual marketplace that allows clients to buy and sell online "skins" from Counter-Strike: Global Offensive. I lead the development of the backend and worked with technologies and APIs like Express.js, MongoDB, Socket.IO, and React.js. I also worked with APIs like Bitgo and Steam to manage various features of the website.',
+        description: 'Skincrib is a virtual marketplace that allows clients to buy and sell online "skins" from Counter-Strike: Global Offensive. I led the development of the backend and worked with technologies and APIs like Express.js, MongoDB, Socket.IO, and React.js. I also worked with APIs like Bitgo and Steam to manage various features of the website.',
     },
 ];
 
@@ -98,6 +98,11 @@ export const ContactMethods: ContactMethod[] = [
         username: '@Easton36',
         url: 'https://github.com/Easton36',
         platform: 'Github',
+    },
+    {
+        username: 'Easton-S',
+        url: 'https://www.linkedin.com/in/easton-s/',
+        platform: 'LinkedIn',
     },
     {
         username: '@Easton',
